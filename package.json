@@ -1,10 +1,11 @@
 {
-  "name": "eleventy-netlify-boilerplate",
+  "name": "bloggy-blog",
   "version": "1.0.2",
   "description": "A boilerplate for building a fast static website with the Eleventy static site generator, for deployment to Netlify.",
   "scripts": {
     "build": "npx eleventy",
     "watch": "npx eleventy --watch",
+    "serve": "npx eleventy --serve",
     "debug": "DEBUG=* npx eleventy"
   },
   "repository": {
@@ -14,7 +15,7 @@
   "author": {
     "name": "Allison Lu",
     "email": "allisonlu820@gmail.com",
-    "url": "https://www.danurbanowicz.com/"
+    "url": ""
   },
   "license": "MIT",
   "bugs": {
