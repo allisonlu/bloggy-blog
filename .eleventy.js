@@ -88,8 +88,8 @@ module.exports = function(eleventyConfig) {
     passthroughFileCopy: true,
     dir: {
       input: ".",
-      includes: "_includes",
-      data: "_data",
+      includes: "src/site/_includes",
+      data: "src/site/_data",
       output: "_site"
     }
   };
